@@ -8,42 +8,6 @@
 @import "./form";
 @import "./media";
 
-/*--HEADER END---*/
-
-/*---JUMBOTRON- INDEX --*/
-.jumbotron{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("../media/images/sobrenosotros.png");
-    background-size: cover;
-    background-position: center;
-    height: 450px;
-    border-radius: 0;
-
-    .title{
-        color: $lyrics;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 3.75em;
-        font-weight: bold;
-        font-style: italic;
-        text-transform: uppercase;
-        text-align: center;
-    }
-
-    .subtitle{
-        color: $lyrics;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.875em;
-        font-weight: bold;
-        font-style: italic;
-        text-align: center;
-    }
-}
-
-/* JUMBOTRON END*/ 
 
 /*----ABOUT US MAIN ----*/
 .bg-au{
