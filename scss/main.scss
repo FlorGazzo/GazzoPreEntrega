@@ -1,4 +1,4 @@
-@import "scss/variables.scss";
+@import "./variables";
 
 
 /*---HEADER---*/
@@ -258,7 +258,7 @@
 
                 &:hover{
                     transform:scale(1.1);
-                    transition: all is ease;
+                    transition: all ease;
                 }
             }
         }
@@ -290,7 +290,7 @@
         padding: 3px 6px;
 
         &:hover{
-            transform: scale(1.5);
+            transform: scale(1.1);
         }
     }
 }
