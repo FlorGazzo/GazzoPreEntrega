@@ -7,7 +7,7 @@
   .om-iframe {
     width: 50vh; }
   .om-paragraph {
-    padding: 0px; }
+    padding: 0; }
   .main-form {
     flex-direction: column; }
   .iframe-contact {
@@ -25,7 +25,7 @@
     margin: 15px;
     padding: 0px; }
   .button-form {
-    width: 260px;
+    width: 16.25em;
     margin: 15px; } }
 
 @media screen and (min-width: 561px) and (max-width: 1024px) {
@@ -81,7 +81,8 @@
       margin-top: 15px;
       color: white;
       text-align: justify;
-      line-height: 20px; }
+      line-height: 1.562em;
+      padding-right: 50px; }
 
 .bg-au {
   background-image: url("../media/images/backgr.png");
@@ -186,7 +187,7 @@
     .main-form .div-form .bg-form {
       align-items: center;
       background-color: #141010;
-      width: 300px;
+      width: 60vh;
       border: 1px solid #f70776;
       border-radius: 10px; }
       .main-form .div-form .bg-form .form-title {
@@ -199,19 +200,20 @@
         word-spacing: 5px;
         margin: 20px 0; }
       .main-form .div-form .bg-form .input-form {
-        width: 260px;
+        width: 45vh;
         height: 35px;
-        margin: 5px 20px;
+        margin: 5px 30px;
         padding: 0 10px;
         color: #141010;
         text-align: center; }
       .main-form .div-form .bg-form textarea {
-        padding: 0 5px;
+        margin-left: 25px;
+        padding: 5px 15px;
         color: #141010;
         text-align: center; }
       .main-form .div-form .bg-form .button-form {
-        width: 260px;
-        margin: 5px 20px;
+        width: 18.75em;
+        margin: 0px 25px 10px;
         border: 1px solid #f70776;
         color: #141010;
         box-shadow: 0 2px 0 #680747;
@@ -227,3 +229,55 @@
       border-radius: 20px; }
 
 /*--- FIN CONTACT---*/
+.item {
+  height: 300px;
+  border: 2px solid #141010;
+  filter: grayscale(100%);
+  transition: 1s; }
+  .item:hover {
+    filter: grayscale(0%); }
+
+.item1 {
+  background-image: url("../media/images/1.png");
+  background-size: cover;
+  background-position: center; }
+
+.item2 {
+  background-image: url("../media/images/2.png");
+  background-size: cover;
+  background-position: center; }
+
+.item3 {
+  background-image: url("../media/images/3.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.item4 {
+  background-image: url("../media/images/4.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.item5 {
+  background-image: url("../media/images/5.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.item6 {
+  background-image: url("../media/images/6.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.item7 {
+  background-image: url("../media/images/7.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.item8 {
+  background-image: url("../media/images/8.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.item9 {
+  background-image: url("../media/images/9.jpg");
+  background-size: cover;
+  background-position: center; }
