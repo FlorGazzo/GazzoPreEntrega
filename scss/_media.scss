@@ -49,3 +49,49 @@
         margin: 15px;
     }
 }
+
+@media screen and (min-width: 561px) and (max-width:1024px) {
+    .om-main{
+        flex-direction: column;
+    }
+
+    .om-iframe{
+        width: 100vh;
+    }
+
+    .om-paragraph{
+        padding: 0px;
+    }
+    .main-form{
+        flex-direction: column;
+    }
+
+    .iframe-contact{
+        width: 100vh;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .bg-form{
+        width: 100vh;
+    }
+
+    .form-title{
+        font-size: 25px;
+    }
+
+    .input-form{
+        width: 280px;
+        margin: 10px 45px;
+    }
+
+    .textarea{
+        margin: 15px 50px;
+        padding: 0px;
+    }
+
+    .button-form{
+        width: 280px;
+        margin: 15px 50px;
+    }
+}
