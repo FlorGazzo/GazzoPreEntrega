@@ -1,0 +1,22 @@
+{
+  "name": "gazzopreentrega",
+  "version": "1.0.0",
+  "description": "Florencia Gazzo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorGazzo/GazzoPreEntrega.git"
+  },
+  "author": "Flor Gazzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlorGazzo/GazzoPreEntrega/issues"
+  },
+  "homepage": "https://github.com/FlorGazzo/GazzoPreEntrega#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
