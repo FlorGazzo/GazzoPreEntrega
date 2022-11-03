@@ -1,0 +1,21 @@
+/*---FOOTER START---*/
+.footer{
+    color: $lyrics;
+    background-color: $black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .social-media i{
+        color: $bg-colorpink;
+        font-size: 20px;
+        text-align: center;
+        padding: 3px 6px;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+/*-----FOOTER END----*/
