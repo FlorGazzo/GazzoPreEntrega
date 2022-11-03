@@ -1,0 +1,50 @@
+.bg-ourmission{
+    background-image: url(../media/images/background.png);
+    @include img-item;
+    @include no-repeat;
+    padding: 20px;
+
+    .om-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 15px;
+        padding: 10px;
+
+        .om-title{
+            @include typo1;
+            font-size: 1.563em;
+            font-style: italic;
+            color: $lyrics;
+        }
+
+        .om-paragraph{
+            margin-top: 15px;
+            color: $lyrics;
+            text-align: justify;
+            line-height: 20px;
+            padding-right: 60px;
+        }        
+    }
+}
+
+.bg-au{
+    background-image: url("../media/images/backgr.png");
+    @include img-item;
+    @include no-repeat;
+    padding: 20px;
+
+    .au-title{
+        @include typo1;
+        color: $lyrics;
+        text-align: center;
+        font-size: 1.563em;
+        font-style: italic;
+    }
+
+    .au-paragraph{
+        margin: 1.563rem;
+        color: $lyrics;
+        text-align: justify;
+    }
+}
