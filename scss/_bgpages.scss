@@ -8,8 +8,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin: 15px;
-        padding: 10px;
+
 
         .om-title{
             @include typo1;
@@ -23,7 +22,6 @@
             color: $lyrics;
             text-align: justify;
             line-height: 20px;
-            padding-right: 60px;
         }        
     }
 }
