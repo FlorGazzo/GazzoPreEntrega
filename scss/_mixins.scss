@@ -12,3 +12,11 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

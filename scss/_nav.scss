@@ -10,11 +10,9 @@
     align-items: flex-end;
 
         .nav-link{
+            @include typo1;
             color: $lyrics;
-            text-transform: uppercase;
-            font-family: Arial, Helvetica, sans-serif;
             font-size: 1.25em;
-            font-weight: bold;
             font-style: normal;
             text-shadow: 0 0 3px $black;
             
