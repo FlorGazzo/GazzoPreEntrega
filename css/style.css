@@ -192,12 +192,12 @@
     filter: grayscale(0%); }
 
 .item1 {
-  background-image: url("../media/images/1.png");
+  background-image: url("../media/images/1.jpg");
   background-size: cover;
   background-position: center; }
 
 .item2 {
-  background-image: url("../media/images/2.png");
+  background-image: url("../media/images/2.jpg");
   background-size: cover;
   background-position: center; }
 
