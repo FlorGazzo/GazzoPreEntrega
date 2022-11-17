@@ -9,12 +9,16 @@
         flex-direction: column;
     }   
 
+    .om-flex{
+        flex-direction: column;
+    }
+
     .om-iframe{
         width: 90%;
     }
 
     .om-paragraph{
-        padding: 0;
+        padding-right: 0px;
     }
 
     .main-form{
@@ -64,9 +68,14 @@
         width: 100vh;
     }
 
-    .om-paragraph{
-        padding: 0px;
+    .om-flex{
+        flex-direction: column;
     }
+
+    .om-paragraph{
+        padding-right: 0px;
+    }
+
     .main-form{
         flex-direction: column;
     }

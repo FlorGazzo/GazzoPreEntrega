@@ -11,19 +11,28 @@
 
 
         .om-title{
-            @include typo1;
+            @include typo2;
             font-size: 1.563em;
             font-style: italic;
             color: $lyrics;
         }
 
-        .om-paragraph{
-            margin-top: 15px;
-            color: $lyrics;
-            text-align: justify;
-            line-height: 1.562em;
-            padding-right: 50px;
-        }        
+        .om-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .om-paragraph{
+                display: flex;
+                flex-direction: column;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-top: 15px;
+                color: $lyrics;
+                text-align: justify;
+                line-height: 1.562em;
+                padding-right: 50px;
+            }   
+        }     
     }
 }
 
@@ -34,7 +43,7 @@
     padding: 20px;
 
     .au-title{
-        @include typo1;
+        @include typo2;
         color: $lyrics;
         text-align: center;
         font-size: 1.563em;
@@ -42,6 +51,7 @@
     }
 
     .au-paragraph{
+        font-family: Arial, Helvetica, sans-serif;
         margin: 1.563rem;
         color: $lyrics;
         text-align: justify;

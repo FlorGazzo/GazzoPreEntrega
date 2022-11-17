@@ -13,6 +13,12 @@
     text-transform: uppercase;
 }
 
+@mixin typo2 {
+    font-family: 'Acme', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 @mixin flex {
     display: flex;
     flex-direction: column;

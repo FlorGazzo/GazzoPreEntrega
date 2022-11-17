@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
 /*---HEADER---*/
 .logo {
   width: 90px;
@@ -14,18 +15,25 @@
     align-items: center;
     justify-content: space-between; }
     .bg-ourmission .om-main .om-title {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Acme', sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       font-size: 1.563em;
       font-style: italic;
       color: white; }
-    .bg-ourmission .om-main .om-paragraph {
-      margin-top: 15px;
-      color: white;
-      text-align: justify;
-      line-height: 1.562em;
-      padding-right: 50px; }
+    .bg-ourmission .om-main .om-flex {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bg-ourmission .om-main .om-flex .om-paragraph {
+        display: flex;
+        flex-direction: column;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        color: white;
+        text-align: justify;
+        line-height: 1.562em;
+        padding-right: 50px; }
 
 .bg-au {
   background-image: url("../media/images/backgr.png");
@@ -34,7 +42,7 @@
   background-repeat: no-repeat;
   padding: 20px; }
   .bg-au .au-title {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Acme', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
@@ -42,6 +50,7 @@
     font-size: 1.563em;
     font-style: italic; }
   .bg-au .au-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 1.563rem;
     color: white;
     text-align: justify; }
@@ -137,7 +146,7 @@
       .main-form .div-form .bg-form .form-title {
         text-align: center;
         color: white;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Acme', sans-serif;
         font-weight: bold;
         text-transform: uppercase;
         font-size: 25px;
@@ -233,10 +242,12 @@
     margin: 0px; }
   .om-main {
     flex-direction: column; }
+  .om-flex {
+    flex-direction: column; }
   .om-iframe {
     width: 90%; }
   .om-paragraph {
-    padding: 0; }
+    padding-right: 0px; }
   .main-form {
     flex-direction: column; }
   .iframe-contact {
@@ -264,8 +275,10 @@
     flex-direction: column; }
   .om-iframe {
     width: 100vh; }
+  .om-flex {
+    flex-direction: column; }
   .om-paragraph {
-    padding: 0px; }
+    padding-right: 0px; }
   .main-form {
     flex-direction: column; }
   .iframe-contact {
