@@ -1,5 +1,5 @@
 .bg-ourmission{
-    background-image: url(../media/images/background.png);
+    background-image: url("../media/images/background.png");
     @include img-item;
     @include no-repeat;
     padding: 20px;
