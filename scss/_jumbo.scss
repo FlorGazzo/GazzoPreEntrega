@@ -3,7 +3,7 @@
     @include flex;
     background-image: url("../media/images/sobrenosotros.png");
     @include img-item;
-    height: 450px;
+    height: 550px;
     border-radius: 0;
 
     .title{
@@ -23,3 +23,7 @@
     }
 }
 /* JUMBOTRON END*/ 
+
+.w-100{
+    height: 100%;
+}
