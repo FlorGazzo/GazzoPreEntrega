@@ -33,7 +33,7 @@
         color: white;
         text-align: justify;
         line-height: 1.562em;
-        padding-right: 50px; }
+        padding-right: 2%; }
 
 .bg-au {
   background-image: url("../media/images/backgr.png");
@@ -127,7 +127,7 @@
 
 /*-----FOOTER END----*/
 .main-form {
-  background-image: url("../media/images/backgr.png");
+  background-image: url("../media/images/backgr.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
